@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    String s1="Applps";
+	    String s2="Aspple";
+	    char[] s1arr=s1.toCharArray();
+	    char[] s2arr=s2.toCharArray();
+	    Arrays.sort(s1arr);
+	    Arrays.sort(s2arr);
+	    if(Arrays.equals(s2arr,s1arr)){
+	        System.out.print("Anagram");
+	    }else{
+	        System.out.print("Not Anagram");
+	    }
+	}
+}
