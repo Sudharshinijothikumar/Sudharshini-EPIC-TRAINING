@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int[] arr={10,10,20,30,40,60,50,60};
+		ArrayList<Integer>al=new ArrayList<>();
+		for(int x:arr){
+		    if(!al.contains(x)){
+		        al.add(x);
+		    }
+		}
+		System.out.println(al);
+	}
+}

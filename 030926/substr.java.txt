@@ -1,0 +1,18 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		String s1="Hello World";
+		String s2="World";
+		s1=s1.trim();
+		s2=s2.trim();
+		for(int i=0;i<=s1.length()-s2.length();i++){
+		    int n=s2.length()+i;
+		    if(s1.substring(i,n).equals(s2)){
+		        System.out.println(i+" "+n);
+		    }
+		    
+		}
+	}
+}
